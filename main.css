@@ -1,0 +1,13 @@
+body {
+    background-color:paleturquoise;
+}
+h1 {
+    color:rgb(92, 117, 189);
+    font-style:italic;
+    text-align:center;
+    font-size:100px
+}
+p {
+    text-align:center;
+    font-size:35px
+}
