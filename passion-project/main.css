@@ -16,3 +16,18 @@ h3 {
 p {
     text-align:center;
 }
+h2 {
+    color:rgb(59, 79, 139);
+    text-align:center;
+}
+h5 {
+    text-align:center;
+    font-style:oblique;
+    font-size:40px;
+    color:rgb(59, 79, 139);
+    background-color:rgb(255, 248, 231);
+    margin:50px;
+    border-style:groove; 
+    border-color:rgb(137, 177, 187);
+    border-width:15px;
+}
