@@ -1,13 +1,22 @@
 body {
-    background-color:paleturquoise;
+    background-image: url(kero.jpg);
 }
 h1 {
-    color:rgb(92, 117, 189);
-    font-style:italic;
+    color:rgb(93, 218, 235);
+    font-family:'Courier New', Courier, monospace;
+    font-size:80px;
     text-align:center;
-    font-size:100px
+    background-color:rgb(255, 243, 218);
+    margin:60px;
+    border-style:groove;
+    border-radius: 30px;
+    border-width: 20px;
+    border-color:rgb(255, 228, 193);
 }
-p {
-    text-align:center;
-    font-size:35px
+
+
+
+li{
+    font-size:20px;
+    color:rgb(255, 0, 212);
 }
