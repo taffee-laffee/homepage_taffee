@@ -1,33 +1,73 @@
+*{
+    box-sizing:border-box;
+}
+
 body {
-    background-color:paleturquoise;
+    background-image: url(stars2.jpg);
+    
 }
-h1 {
-    color:rgb(92, 117, 189);
+
+.title{
+    color:rgb(63, 114, 162);
     font-style:italic;
     text-align:center;
-    font-size:90px
+    font-size:90px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-h3 {
-    color:rgb(59, 79, 139);
-    font-style:italic;
-    text-align:center;
-    font-size:30px
+
+h5 {
+    text-align: center;
+    color:blueviolet;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p {
     text-align:center;
+    font-size: 50px;
+    color:blueviolet;
 }
 h2 {
     color:rgb(59, 79, 139);
     text-align:center;
 }
-h5 {
+
+img {
+    margin: 16px; 
+    border: 8px dashed;
+    border-color:rgb(98, 183, 214);
+    align-items: center;
+
+}
+div {
+    display:flex;
+    justify-content: center;
+  height: 100%; 
+}
+
+.art {
+    text-align: center;
+    color:#ff4ae7;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bro {
     text-align:center;
-    font-style:oblique;
-    font-size:40px;
-    color:rgb(59, 79, 139);
-    background-color:rgb(255, 248, 231);
-    margin:50px;
-    border-style:groove; 
-    border-color:rgb(137, 177, 187);
-    border-width:15px;
+    color:#ff4ae7;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(201, 244, 255); 
+}
+.mini {
+    text-align:center;
+    color:#ff4ae7;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(201, 244, 255); 
+}
+.friends {
+    text-align:center;
+    color:#ff4ae7;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(201, 244, 255); 
 }
