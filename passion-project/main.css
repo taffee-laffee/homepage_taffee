@@ -7,7 +7,7 @@ body {
     
 }
 
-.title{
+.title {
     color:rgb(63, 114, 162);
     font-style:italic;
     text-align:center;
@@ -33,8 +33,10 @@ h2 {
 
 img {
     margin: 16px; 
-    border: 8px dashed;
-    border-color:rgb(98, 183, 214);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 8px;
+    border-color:rgb(104, 153, 174);
     align-items: center;
 
 }
@@ -56,6 +58,9 @@ div {
     font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(201, 244, 255); 
+    border-radius: 15px;
+    padding:10px;
+    border-width:50px;
 }
 .mini {
     text-align:center;
@@ -63,6 +68,9 @@ div {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(201, 244, 255); 
+    border-radius: 15px;
+    padding:10px;
+    border-width:50px;
 }
 .friends {
     text-align:center;
@@ -70,9 +78,12 @@ div {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(201, 244, 255); 
+    border-radius: 15px;
+    padding:10px;
+    border-width:50px;
 }
 
 .homepage {
-    font-size:15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
 }
