@@ -40,17 +40,20 @@ img {
     align-items: center;
 
 }
-div {
-    display:flex;
-    justify-content: center;
-  height: 100%; 
-}
+
 
 .art {
     text-align: center;
     color:#ff4ae7;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+    text-align: center;
+    color:#ff4ae7;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .bro {
     text-align:center;
@@ -72,7 +75,9 @@ div {
     padding:10px;
     border-width:50px;
 }
-.friends {
+
+
+.fren {
     text-align:center;
     color:#ff4ae7;
     font-size: 20px;
@@ -84,6 +89,11 @@ div {
 }
 
 .homepage {
+    text-align:center;
     font-size: 20px;
-    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
 }
+
+
+
