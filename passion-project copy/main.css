@@ -3,18 +3,18 @@
 }
 
 body {
-    background-image: url(stars2.jpg);
+    background-image: url(star-background.jpg);
+    background-size:contain;
     font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .title {
-    color:rgb(63, 114, 162);
+    color:rgb(162, 86, 239);
     font-style:italic;
     text-align:center;
     font-size:90px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:white;
 }
 
 h5 {
@@ -22,12 +22,11 @@ h5 {
     color:blueviolet;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:white;
 }
 p {
     text-align:center;
     font-size: 50px;
-    color:blueviolet;
+    color:rgb(255, 0, 187);
 }
 h2 {
     color:rgb(59, 79, 139);
@@ -36,10 +35,10 @@ h2 {
 
 img {
     margin: 17px; 
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 12px;
-    border-color:rgb(180, 211, 221);
+    border-radius: 800px;
+    border-style:double;
+    border-width: 20px;
+    border-color:rgb(255, 255, 255);
     align-items: center;
 
 }
@@ -62,15 +61,15 @@ img {
     color:#ff4ae7;
     font-size: 25px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:#fdfdfd;
+    font-weight: bold;
 }
 .header-inner {
     text-align:center;
-    color:white;
+    color:rgb(255, 255, 255);
     font-size: 25px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight:bold;
-    background-color:rgb(209, 194, 255);
+    background-color:rgb(175, 247, 255);
     border-radius: 15px;
     padding:10px;
     border-width:50px;
