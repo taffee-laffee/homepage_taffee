@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+}
+img{
+    max-width:100%;
+}
+.box {
+    background-color:rgb(122, 184, 186);
+    border:1px solid; 
+    width:100px;
+    height:100px;
+    margin:20px 0px;
+}
+
+.relative {
+    background-color:rgb(243, 233, 147);
+    position:relative;
+    top: 50px;
+    left: 50px;
+}
+
+.fixed {
+    background-color:pink;
+    position:fixed;
+    top:0px;
+    right:0px;
+}
+
+.sticky {
+    background-color:rgb(134, 217, 175);
+    position:sticky;
+    top: 0px;
+}
+
+.absolute {
+    background-color:rgb(162, 88, 231);
+    position:absolute;
+    top:200px;
+    left:200px;
+}
+
+.parent {
+    background-color:rgb(255, 97, 97);
+    width:300px;
+    height:300px;
+    position:relative;
+}
+
+/* absoluely positioned elements will position themselves relative to the document body unless they have a parent/container that has also been given a position value */
+.child {
+    background-color:greenyellow;
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+.smiley {
+    background-color:rgb(255, 234, 0);
+    width:200px;
+    height:200px;
+    position:relative;
+}
+
+.eye {
+    background-color:black;
+    width:30px;
+    height:30px;
+    border:5px solid white;
+    position:absolute;
+}
+
+.left {
+    top:50px;
+    left: 50px;
+}
+
+.right {
+    top: 50px;
+    right:50px;
+}

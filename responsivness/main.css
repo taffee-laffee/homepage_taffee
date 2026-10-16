@@ -1,0 +1,50 @@
+*{
+    box-sizing:border-box;
+}
+img{
+    max-width:100%;
+}
+
+body {
+    background: rgb(178, 178, 178);
+    transition: background 2s;
+}
+
+.responsive {
+    background-color:rgb(140, 172, 149);
+    padding:20px;
+    max-width:700px;
+}
+
+/* 
+max-width = desktop first, media queries progressivelt get smaller
+min-width= mobile first, media queries progressively get larger
+ */
+
+ /* tablet screen size */
+@media screen and (max-width: 900px) {
+    body {
+        background:rgb(190, 219, 214);
+    }
+    .responsive {
+        background-color:rgb(255, 216, 152);
+        padding:50px;
+        border: 10px solid;
+        border-color: aquamarine;
+        transition: background 2s;
+}
+    }
+
+/* phone screen size */
+
+@media screen and (max-width:600px) {
+    body {
+        background-color:lightpink;
+    }
+    .responsive {
+          background-color:rgb(255, 164, 152);
+          transition: background 2s;
+    }
+    }
+
+

@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+}
+img{
+    max-width:100%;
+}
+
+body {
+    background-color:rgb(253, 250, 215);
+}
+
+.text {
+    text-align:center;
+    margin-top: 200px;
+    color:rgb(67, 54, 96);
+}
+
+.container {
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    padding:20px;
+    justify-content:center;
+}
+
+img {
+    margin:30px;
+}

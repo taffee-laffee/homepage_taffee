@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+}
+img{
+    max-width:100%;
+}
+
+body {
+    background-image: url(zzz.jpg);
+    background-color:rgb(253, 250, 215);
+    background-position: 100%;
+}
+
+.text {
+    text-align:center;
+    margin-top: 200px;
+    color:rgb(67, 54, 96);
+}
+
+.container {
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    padding:20px;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+img {
+    margin:10px;
+}
