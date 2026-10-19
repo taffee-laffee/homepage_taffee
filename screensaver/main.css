@@ -1,0 +1,104 @@
+*{
+    box-sizing:border-box;
+}
+img{
+    max-width:100%;
+}
+
+body{
+    margin:0;
+}
+
+.container {
+    background-image: url(water2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position: relative;
+    overflow:hidden;
+}
+
+.fish {
+ position: relative;
+    animation: move 8s infinite,
+    scale 2s infinite linear;
+    margin:15px;
+}
+
+@keyframes move {
+    0% {
+        right:-300%;
+    }
+    100% {
+       right:100%;
+    }
+}
+
+.fish2 {
+    position: relative;
+    margin:15px;
+    margin-top: -800px;
+    animation: swim 8s infinite, scale 2s infinite linear;
+}
+
+@keyframes swim {
+    0% {
+        left:-300%;
+    }
+    100% {
+        left:100%;
+    }
+}
+
+.fish3 {
+    position: relative;
+    margin:15px;
+    margin-bottom: -800px;
+    animation: swim2 8s infinite, scale 2s infinite linear;
+}
+@keyframes swim2 {
+   0% {
+    left:-300%;
+   }
+   100% {
+    left: 100%;
+   }
+ }
+
+
+.fish4 {
+    position: absolute;
+    animation: swim3 8s ease-in-out infinite;
+    margin-bottom: 300px;
+}
+
+@keyframes swim3 {
+    0%,100% {
+        transform:translateY(0);
+        right:250px;
+    }
+    50% {
+       transform:translateY(-50px)
+    }
+}
+
+.fish5 {
+    position: absolute;
+    animation: swim4 8s ease-in-out infinite;
+    margin-top: 500px;
+}
+
+@keyframes swim4 {
+    0%,100% {
+        transform:translateY(0);
+        left:250px;
+    }
+    50% {
+       transform:translateY(-50px)
+    }
+}
